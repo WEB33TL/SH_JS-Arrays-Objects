@@ -1,0 +1,422 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200613.095800.1903.0.001.json",
+    "dumpEventTime": "2020-06-13T09:58:00Z",
+    "dumpEventTimeStamp": "1592056680406",
+    "processId": 1903,
+    "cwd": "/Users/missusfantastic/Coding/Lambda/WEB33TL/SH_JS-Arrays-Objects",
+    "commandLine": [
+      "/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node",
+      "index.js"
+    ],
+    "nodejsVersion": "v13.0.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "13.0.0",
+      "v8": "7.8.279.17-node.14",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.0.0/node-v13.0.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.0.0/node-v13.0.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "19.5.0",
+    "osVersion": "Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+        "speed": 3200,
+        "user": 135290,
+        "nice": 0,
+        "sys": 72610,
+        "idle": 631400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+        "speed": 3200,
+        "user": 122470,
+        "nice": 0,
+        "sys": 47640,
+        "idle": 668660,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+        "speed": 3200,
+        "user": 115540,
+        "nice": 0,
+        "sys": 39000,
+        "idle": 684220,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+        "speed": 3200,
+        "user": 104140,
+        "nice": 0,
+        "sys": 32130,
+        "idle": 702500,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "58:40:4e:ed:f2:fc",
+        "address": "fe80::5:558f:e01f:18c4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "58:40:4e:ed:f2:fc",
+        "address": "192.168.1.9",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "2a:df:1c:f8:e9:ba",
+        "address": "fe80::28df:1cff:fef8:e9ba",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "2a:df:1c:f8:e9:ba",
+        "address": "fe80::28df:1cff:fef8:e9ba",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::b8f5:3586:8f2b:67b6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::3b1b:2d94:e82:27f9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      }
+    ],
+    "host": "Tiffanys-iMac.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000010014b228",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010007f549",
+      "symbol": "node::OnFatalError(char const*, char const*) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100173b07",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100173aa3",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f9d05",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001002cd971",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller(v8::internal::RootIndex, int, v8::internal::Object, v8::internal::AllocationType) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010043ca4a",
+      "symbol": "v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2> >::ConvertElementsWithCapacity(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::FixedArrayBase>, v8::internal::ElementsKind, unsigned int, unsigned int, unsigned int) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010043b1e6",
+      "symbol": "v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2> >::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001005e1d14",
+      "symbol": "v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010093f5d9",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 939544576,
+    "totalCommittedMemory": 938444504,
+    "usedMemory": 912113232,
+    "availableMemory": 1283923552,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33550576,
+        "capacity": 16759296,
+        "used": 7865760,
+        "available": 8893536
+      },
+      "old_space": {
+        "memorySize": 2207744,
+        "committedMemory": 1840128,
+        "capacity": 1344072,
+        "used": 1344072,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 176320,
+        "capacity": 154208,
+        "used": 154208,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 282600,
+        "capacity": 202720,
+        "used": 202720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 19.8598,
+    "kernelCpuSeconds": 0.844507,
+    "cpuConsumptionPercent": 103.521,
+    "maxRss": 1595500658688,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 674463
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "TERM_PROGRAM": "vscode",
+    "NVM_CD_FLAGS": "",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash",
+    "TMPDIR": "/var/folders/57/61mk_k292h1frz5pyc5q8__h0000gn/T/",
+    "TERM_PROGRAM_VERSION": "1.46.0",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "TERM_SESSION_ID": "w0t0p0:32854A15-5F56-4DF6-8C15-2DDB7E24371C",
+    "NVM_DIR": "/Users/missusfantastic/.nvm",
+    "USER": "missusfantastic",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.6Tbeoye9ES/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "PATH": "/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin:/Users/missusfantastic/.yarn/bin:/Users/missusfantastic/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/:/usr/local/bin/ruby:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin:/Users/missusfantastic/.yarn/bin:/Users/missusfantastic/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.7/bin",
+    "LaunchInstanceID": "9EFDA83D-4396-4F68-A579-1EA593772D7F",
+    "PWD": "/Users/missusfantastic/Coding/Lambda/WEB33TL/SH_JS-Arrays-Objects",
+    "LANG": "en_US.UTF-8",
+    "ITERM_PROFILE": "Hotkey Window",
+    "XPC_FLAGS": "0x0",
+    "PS1": "\\[\\033[0;32m\\]\\u@\\h\\[\\033[0;33m\\] \\w\\[\\033[0;36m\\]$(__git_ps1 \" (%s)\")\\[\\033[0;00m\\]\\n$ ",
+    "XPC_SERVICE_NAME": "0",
+    "SHLVL": "3",
+    "HOME": "/Users/missusfantastic",
+    "COLORFGBG": "7;0",
+    "VSCODE_GIT_ASKPASS_MAIN": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "LC_TERMINAL_VERSION": "3.3.11",
+    "ITERM_SESSION_ID": "w0t0p0:32854A15-5F56-4DF6-8C15-2DDB7E24371C",
+    "LOGNAME": "missusfantastic",
+    "VSCODE_GIT_IPC_HANDLE": "/var/folders/57/61mk_k292h1frz5pyc5q8__h0000gn/T/vscode-git-1ee4d01892.sock",
+    "NVM_BIN": "/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin",
+    "VSCODE_GIT_ASKPASS_NODE": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)",
+    "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
+    "LC_TERMINAL": "iTerm2",
+    "SECURITYSESSIONID": "186a7",
+    "COLORTERM": "truecolor",
+    "_": "/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/nodemon"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 49152,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 5568,
+      "hard": 5568
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/Users/missusfantastic/.nvm/versions/node/v13.0.0/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib"
+  ]
+}
